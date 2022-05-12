@@ -1,0 +1,56 @@
+.Logincontainer {
+    display:grid;
+place-items: center;
+height: 100vh;
+background-color:black;
+}
+.Logo {
+    width: 50%;
+}
+.Logotwo{
+    
+    padding: 25px;
+    margin-right: auto;
+    height: 100px;
+    
+}
+
+.Separacion{
+    border: 1px solid gray;
+    width: 90%;
+    margin: 10px auto;
+}
+.Input{
+        border: none;
+        width: 100%;
+      
+}
+.Nombre{
+    margin-left: 15px;
+}
+
+.DobleP{
+    height: 75px;
+    width: 75px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.Aranjuez {
+    width: 15vw;
+    margin: 0 35px;
+    box-shadow: 0 4px 60px #000;
+}
+ /* .Platlist{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+} */
+
+.Canciones{
+    margin: 30px;
+    display: flex;
+    cursor: pointer;
+    transition: 300ms color ease-in;
+    border-radius: 20px;
+}
